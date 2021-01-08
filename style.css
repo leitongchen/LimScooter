@@ -1,0 +1,97 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Immagine di sfondo */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/* container semi trasparente */
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 80%;
+  height: 60%;
+  border-radius: 20px;
+  padding: 10%;
+}
+
+/* elementi allineati al centro */
+header,nav{
+ text-align: center;
+}
+
+/* barra di navigazione */
+nav{
+  background-color: #39ff14;
+  margin: auto;
+  padding: 10px;
+  height: 10%;
+}
+
+
+/* headline sito */
+h1{
+  color: #39ff14;
+}
+
+/* Denominazione monopattino */
+h2{
+  font-size: 25px;
+  color: white;
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+}
+
+section p,label{
+  font-size: 16px;
+  color: white;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+
+
+/* STATO CARICA scritta*/
+label{
+  display: block;
+}
+
+/* barra livello di carica */
+.charge-level{
+  display: inline-block;
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.gino{
+  background-color: orange;
+  width: 30%;
+}
+
+.mike{
+  background-color: #39ff14;
+  width: 60%;
+}
+
+.fede{
+  background-color: red;
+  width: 10%;
+}
+
+
+/* dimensioni logo LIM */
+[alt="logo"]{
+  width: 50%;
+}
+
+/* simbolo freccia */
+p:before{
+  content: "\27AB";
+}
